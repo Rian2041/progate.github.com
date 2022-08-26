@@ -1,0 +1,71 @@
+
+.jumbotron{
+    padding-top: 7rem;
+    background: linear-gradient(to right, red, blue);
+}
+#SKILL{
+    background-color: #bee5d3;
+}
+
+.nama{
+    font-style: italic;
+    font-size: 15px;
+}
+.stretched-link{
+    color: black;
+}
+
+section{
+    padding-top: 10rem;
+}
+
+body{
+    background-color: #3095cf;
+}
+
+#ABOUT{
+    color: whitesmoke;
+}
+#CONTACT{
+    color: WHITE ;
+}
+
+/* animation contact */
+
+.wraper{
+    padding-left: 0px;
+}
+
+.icon{
+ padding-left: 1rem;
+ padding-top: 2rem;
+ animation: float 4s ease-in-out infinite;
+ display: inline-block;
+}
+
+.ig{
+    animation-delay: 1s;
+}
+
+.wa{
+    animation-delay: 2s;
+}
+
+.ig{
+    animation-delay: 3s;
+}
+
+
+
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translate(0)
+    }
+
+}
